@@ -8,3 +8,7 @@ F:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganogra
 F:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.csproj.CoreCompileInputs.cache
 F:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.exe
 F:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.pdb
+F:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\bin\Debug\Steganography.exe.manifest
+F:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\bin\Debug\Steganography.application
+F:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.exe.manifest
+F:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.application

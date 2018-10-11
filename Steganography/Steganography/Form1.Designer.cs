@@ -31,205 +31,138 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.EncodeButton = new System.Windows.Forms.Button();
             this.DecodeButton = new System.Windows.Forms.Button();
-            this.EncryptCheckBox = new System.Windows.Forms.CheckBox();
-            this.EncryptLabel = new System.Windows.Forms.Label();
             this.PasswordLabel = new System.Windows.Forms.Label();
             this.PasswordTextBox = new System.Windows.Forms.TextBox();
-            this.TextListBox = new System.Windows.Forms.ListBox();
             this.ImagePictureBox = new System.Windows.Forms.PictureBox();
-            this.ImageLabel = new System.Windows.Forms.Label();
-            this.UploadButton = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.DirectionLabel1 = new System.Windows.Forms.Label();
-            this.DirectionLabel2 = new System.Windows.Forms.Label();
-            this.DirectionLabel3 = new System.Windows.Forms.Label();
-            this.DirectionLabel4 = new System.Windows.Forms.Label();
-            this.SaveLabel = new System.Windows.Forms.Label();
+            this.UploadImageButton = new System.Windows.Forms.Button();
             this.SaveButton = new System.Windows.Forms.Button();
+            this.UploadTextButton = new System.Windows.Forms.Button();
+            this.WordsTextBox = new System.Windows.Forms.TextBox();
+            this.ImageGroupBox = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.ImagePictureBox)).BeginInit();
+            this.ImageGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // EncodeButton
             // 
-            this.EncodeButton.Location = new System.Drawing.Point(305, 219);
+            this.EncodeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EncodeButton.Location = new System.Drawing.Point(339, 387);
             this.EncodeButton.Margin = new System.Windows.Forms.Padding(2);
             this.EncodeButton.Name = "EncodeButton";
-            this.EncodeButton.Size = new System.Drawing.Size(92, 32);
+            this.EncodeButton.Size = new System.Drawing.Size(160, 28);
             this.EncodeButton.TabIndex = 0;
-            this.EncodeButton.Text = "ENCODE";
+            this.EncodeButton.Text = "Encode";
             this.EncodeButton.UseVisualStyleBackColor = true;
             this.EncodeButton.Click += new System.EventHandler(this.EncodeButton_Click);
             // 
             // DecodeButton
             // 
-            this.DecodeButton.Location = new System.Drawing.Point(443, 221);
+            this.DecodeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DecodeButton.Location = new System.Drawing.Point(513, 387);
             this.DecodeButton.Margin = new System.Windows.Forms.Padding(2);
             this.DecodeButton.Name = "DecodeButton";
-            this.DecodeButton.Size = new System.Drawing.Size(92, 32);
+            this.DecodeButton.Size = new System.Drawing.Size(150, 28);
             this.DecodeButton.TabIndex = 1;
-            this.DecodeButton.Text = "DECODE";
+            this.DecodeButton.Text = "Decode";
             this.DecodeButton.UseVisualStyleBackColor = true;
             this.DecodeButton.Click += new System.EventHandler(this.DecodeButton_Click);
-            // 
-            // EncryptCheckBox
-            // 
-            this.EncryptCheckBox.AutoSize = true;
-            this.EncryptCheckBox.Location = new System.Drawing.Point(9, 248);
-            this.EncryptCheckBox.Margin = new System.Windows.Forms.Padding(2);
-            this.EncryptCheckBox.Name = "EncryptCheckBox";
-            this.EncryptCheckBox.Size = new System.Drawing.Size(44, 17);
-            this.EncryptCheckBox.TabIndex = 2;
-            this.EncryptCheckBox.Text = "Yes";
-            this.EncryptCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // EncryptLabel
-            // 
-            this.EncryptLabel.AutoSize = true;
-            this.EncryptLabel.Location = new System.Drawing.Point(9, 231);
-            this.EncryptLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.EncryptLabel.Name = "EncryptLabel";
-            this.EncryptLabel.Size = new System.Drawing.Size(230, 13);
-            this.EncryptLabel.TabIndex = 3;
-            this.EncryptLabel.Text = "Encrypt? (Click box if yes and create password)";
             // 
             // PasswordLabel
             // 
             this.PasswordLabel.AutoSize = true;
-            this.PasswordLabel.Location = new System.Drawing.Point(109, 249);
+            this.PasswordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordLabel.Location = new System.Drawing.Point(11, 406);
             this.PasswordLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.PasswordLabel.Name = "PasswordLabel";
-            this.PasswordLabel.Size = new System.Drawing.Size(56, 13);
+            this.PasswordLabel.Size = new System.Drawing.Size(71, 16);
             this.PasswordLabel.TabIndex = 4;
             this.PasswordLabel.Text = "Password:";
             // 
             // PasswordTextBox
             // 
-            this.PasswordTextBox.Location = new System.Drawing.Point(168, 247);
+            this.PasswordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PasswordTextBox.Location = new System.Drawing.Point(86, 403);
             this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.Size = new System.Drawing.Size(105, 20);
+            this.PasswordTextBox.PasswordChar = '●';
+            this.PasswordTextBox.Size = new System.Drawing.Size(162, 22);
             this.PasswordTextBox.TabIndex = 5;
-            // 
-            // TextListBox
-            // 
-            this.TextListBox.FormattingEnabled = true;
-            this.TextListBox.Location = new System.Drawing.Point(9, 117);
-            this.TextListBox.Margin = new System.Windows.Forms.Padding(2);
-            this.TextListBox.Name = "TextListBox";
-            this.TextListBox.Size = new System.Drawing.Size(243, 108);
-            this.TextListBox.TabIndex = 6;
             // 
             // ImagePictureBox
             // 
-            this.ImagePictureBox.Location = new System.Drawing.Point(305, 35);
+            this.ImagePictureBox.Location = new System.Drawing.Point(1, 7);
             this.ImagePictureBox.Margin = new System.Windows.Forms.Padding(2);
             this.ImagePictureBox.Name = "ImagePictureBox";
-            this.ImagePictureBox.Size = new System.Drawing.Size(230, 180);
+            this.ImagePictureBox.Size = new System.Drawing.Size(320, 337);
             this.ImagePictureBox.TabIndex = 7;
             this.ImagePictureBox.TabStop = false;
             // 
-            // ImageLabel
+            // UploadImageButton
             // 
-            this.ImageLabel.AutoSize = true;
-            this.ImageLabel.Location = new System.Drawing.Point(303, 19);
-            this.ImageLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.ImageLabel.Name = "ImageLabel";
-            this.ImageLabel.Size = new System.Drawing.Size(39, 13);
-            this.ImageLabel.TabIndex = 8;
-            this.ImageLabel.Text = "Image:";
-            // 
-            // UploadButton
-            // 
-            this.UploadButton.Location = new System.Drawing.Point(53, 78);
-            this.UploadButton.Margin = new System.Windows.Forms.Padding(2);
-            this.UploadButton.Name = "UploadButton";
-            this.UploadButton.Size = new System.Drawing.Size(157, 25);
-            this.UploadButton.TabIndex = 9;
-            this.UploadButton.Text = "Upload Image";
-            this.UploadButton.UseVisualStyleBackColor = true;
-            this.UploadButton.Click += new System.EventHandler(this.UploadButton_Click);
-            // 
-            // DirectionLabel1
-            // 
-            this.DirectionLabel1.AutoSize = true;
-            this.DirectionLabel1.Location = new System.Drawing.Point(9, 7);
-            this.DirectionLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.DirectionLabel1.Name = "DirectionLabel1";
-            this.DirectionLabel1.Size = new System.Drawing.Size(274, 13);
-            this.DirectionLabel1.TabIndex = 11;
-            this.DirectionLabel1.Text = "Please upload image desired to be encoded or decoded.";
-            // 
-            // DirectionLabel2
-            // 
-            this.DirectionLabel2.AutoSize = true;
-            this.DirectionLabel2.Location = new System.Drawing.Point(9, 21);
-            this.DirectionLabel2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.DirectionLabel2.Name = "DirectionLabel2";
-            this.DirectionLabel2.Size = new System.Drawing.Size(267, 13);
-            this.DirectionLabel2.TabIndex = 12;
-            this.DirectionLabel2.Text = "After uploading, if you choose to decode, hit \"decode\".";
-            // 
-            // DirectionLabel3
-            // 
-            this.DirectionLabel3.AutoSize = true;
-            this.DirectionLabel3.Location = new System.Drawing.Point(9, 35);
-            this.DirectionLabel3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.DirectionLabel3.Name = "DirectionLabel3";
-            this.DirectionLabel3.Size = new System.Drawing.Size(264, 13);
-            this.DirectionLabel3.TabIndex = 13;
-            this.DirectionLabel3.Text = "For encoding, please type in your desired text, encrypt ";
-            // 
-            // DirectionLabel4
-            // 
-            this.DirectionLabel4.AutoSize = true;
-            this.DirectionLabel4.Location = new System.Drawing.Point(9, 49);
-            this.DirectionLabel4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.DirectionLabel4.Name = "DirectionLabel4";
-            this.DirectionLabel4.Size = new System.Drawing.Size(204, 13);
-            this.DirectionLabel4.TabIndex = 14;
-            this.DirectionLabel4.Text = "via password if desired, and hit \"encode\".";
-            // 
-            // SaveLabel
-            // 
-            this.SaveLabel.AutoSize = true;
-            this.SaveLabel.Location = new System.Drawing.Point(285, 265);
-            this.SaveLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.SaveLabel.Name = "SaveLabel";
-            this.SaveLabel.Size = new System.Drawing.Size(114, 13);
-            this.SaveLabel.TabIndex = 15;
-            this.SaveLabel.Text = "Save encoded image?";
+            this.UploadImageButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UploadImageButton.Location = new System.Drawing.Point(11, 11);
+            this.UploadImageButton.Margin = new System.Windows.Forms.Padding(2);
+            this.UploadImageButton.Name = "UploadImageButton";
+            this.UploadImageButton.Size = new System.Drawing.Size(324, 28);
+            this.UploadImageButton.TabIndex = 9;
+            this.UploadImageButton.Text = "Upload Text File";
+            this.UploadImageButton.UseVisualStyleBackColor = true;
+            this.UploadImageButton.Click += new System.EventHandler(this.UploadButton_Click);
             // 
             // SaveButton
             // 
-            this.SaveButton.Location = new System.Drawing.Point(401, 262);
+            this.SaveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SaveButton.Location = new System.Drawing.Point(339, 419);
             this.SaveButton.Margin = new System.Windows.Forms.Padding(2);
             this.SaveButton.Name = "SaveButton";
-            this.SaveButton.Size = new System.Drawing.Size(56, 19);
+            this.SaveButton.Size = new System.Drawing.Size(324, 28);
             this.SaveButton.TabIndex = 16;
-            this.SaveButton.Text = "YES";
+            this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = true;
             this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
+            // 
+            // UploadTextButton
+            // 
+            this.UploadTextButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UploadTextButton.Location = new System.Drawing.Point(341, 11);
+            this.UploadTextButton.Margin = new System.Windows.Forms.Padding(2);
+            this.UploadTextButton.Name = "UploadTextButton";
+            this.UploadTextButton.Size = new System.Drawing.Size(324, 28);
+            this.UploadTextButton.TabIndex = 17;
+            this.UploadTextButton.Text = "Upload Image File";
+            this.UploadTextButton.UseVisualStyleBackColor = true;
+            // 
+            // WordsTextBox
+            // 
+            this.WordsTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WordsTextBox.Location = new System.Drawing.Point(11, 43);
+            this.WordsTextBox.Multiline = true;
+            this.WordsTextBox.Name = "WordsTextBox";
+            this.WordsTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.WordsTextBox.Size = new System.Drawing.Size(324, 340);
+            this.WordsTextBox.TabIndex = 18;
+            // 
+            // ImageGroupBox
+            // 
+            this.ImageGroupBox.Controls.Add(this.ImagePictureBox);
+            this.ImageGroupBox.Location = new System.Drawing.Point(341, 36);
+            this.ImageGroupBox.Name = "ImageGroupBox";
+            this.ImageGroupBox.Size = new System.Drawing.Size(322, 347);
+            this.ImageGroupBox.TabIndex = 19;
+            this.ImageGroupBox.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(557, 291);
+            this.ClientSize = new System.Drawing.Size(675, 460);
+            this.Controls.Add(this.UploadTextButton);
+            this.Controls.Add(this.ImageGroupBox);
+            this.Controls.Add(this.WordsTextBox);
             this.Controls.Add(this.SaveButton);
-            this.Controls.Add(this.SaveLabel);
-            this.Controls.Add(this.DirectionLabel4);
-            this.Controls.Add(this.DirectionLabel3);
-            this.Controls.Add(this.DirectionLabel2);
-            this.Controls.Add(this.DirectionLabel1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.UploadButton);
-            this.Controls.Add(this.ImageLabel);
-            this.Controls.Add(this.ImagePictureBox);
-            this.Controls.Add(this.TextListBox);
+            this.Controls.Add(this.UploadImageButton);
             this.Controls.Add(this.PasswordTextBox);
             this.Controls.Add(this.PasswordLabel);
-            this.Controls.Add(this.EncryptLabel);
-            this.Controls.Add(this.EncryptCheckBox);
             this.Controls.Add(this.DecodeButton);
             this.Controls.Add(this.EncodeButton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -238,6 +171,7 @@
             this.Text = "Steganography";
             this.Load += new System.EventHandler(this.Steganography_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ImagePictureBox)).EndInit();
+            this.ImageGroupBox.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -247,21 +181,14 @@
 
         private System.Windows.Forms.Button EncodeButton;
         private System.Windows.Forms.Button DecodeButton;
-        private System.Windows.Forms.CheckBox EncryptCheckBox;
-        private System.Windows.Forms.Label EncryptLabel;
         private System.Windows.Forms.Label PasswordLabel;
         private System.Windows.Forms.TextBox PasswordTextBox;
-        private System.Windows.Forms.ListBox TextListBox;
         private System.Windows.Forms.PictureBox ImagePictureBox;
-        private System.Windows.Forms.Label ImageLabel;
-        private System.Windows.Forms.Button UploadButton;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label DirectionLabel1;
-        private System.Windows.Forms.Label DirectionLabel2;
-        private System.Windows.Forms.Label DirectionLabel3;
-        private System.Windows.Forms.Label DirectionLabel4;
-        private System.Windows.Forms.Label SaveLabel;
+        private System.Windows.Forms.Button UploadImageButton;
         private System.Windows.Forms.Button SaveButton;
+        private System.Windows.Forms.Button UploadTextButton;
+        private System.Windows.Forms.TextBox WordsTextBox;
+        private System.Windows.Forms.GroupBox ImageGroupBox;
     }
 }
 
