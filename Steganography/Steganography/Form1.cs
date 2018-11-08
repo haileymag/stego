@@ -48,11 +48,13 @@ namespace Steganography
 
         }
 
+        // user encodes the data
         private void EncodeButton_Click(object sender, EventArgs e)
         {
 
         }
 
+        // user decodes data
         private void DecodeButton_Click(object sender, EventArgs e)
         {
 
@@ -66,7 +68,7 @@ namespace Steganography
 
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                openFileDialog.InitialDirectory = "c:\\";
+                openFileDialog.InitialDirectory = "C:\\";
                 openFileDialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
                 openFileDialog.FilterIndex = 2;
                 openFileDialog.RestoreDirectory = true;
@@ -89,6 +91,26 @@ namespace Steganography
         {
 
         }
+
+        // the user wants to open an image file
+        private void UploadTextButton_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog dlg = new OpenFileDialog())
+            {
+                dlg.Title = "Open Image";
+                dlg.Filter = "bmp files (*.bmp)|*.bmp";
+
+                if (dlg.ShowDialog() == DialogResult.OK)
+                {
+                    // create a new Bitmap object 
+                    bmp = new Bitmap(dlg.FileName);
+                    ImagePictureBox.Image = bmp;
+                    ImagePictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+                }
+            }
+        }
+
+
     }
 }
 

@@ -131,6 +131,7 @@
             this.UploadTextButton.TabIndex = 17;
             this.UploadTextButton.Text = "Upload Image File";
             this.UploadTextButton.UseVisualStyleBackColor = true;
+            this.UploadTextButton.Click += new System.EventHandler(this.UploadTextButton_Click);
             // 
             // WordsTextBox
             // 
