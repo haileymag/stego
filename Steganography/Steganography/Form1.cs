@@ -15,17 +15,31 @@ namespace Steganography
     {
 
         private string text { get; set; }
+        private Bitmap bmp { get; set; }
 
-        public Form1()
+        public Form1(string[] args)
         {
             InitializeComponent();
 
-            InitializeVariables();
-        }
+            // initialize variables
 
-        private void InitializeVariables()
-        {
-            text = "";
+            // no args passed, dont open anything
+            if (args.Length == 0)
+            {
+                text = "";
+            }
+            else
+            {
+                try
+                {
+                    text = File.ReadAllText(args[1]);
+                }
+                catch
+                {
+                    Console.WriteLine("Error opening files.");
+                    Close();
+                }
+            }
         }
 
         // code to run on program startup
@@ -70,7 +84,7 @@ namespace Steganography
                 WordsTextBox.Text = text;
             }
         }
-
+        
         private void SaveButton_Click(object sender, EventArgs e)
         {
 
