@@ -195,6 +195,9 @@ namespace Steganography
                     bmp = ImageToBMP(dlg.FileName);
                     ImagePictureBox.Image = bmp;
                     ImagePictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+
+                    // update counter
+                    WordsTextBox_TextChanged(this, new EventArgs());
                 }
             }
         }
@@ -302,7 +305,20 @@ namespace Steganography
                 UrlTextBox.SelectAll();
             }
         }
+        
+        // calculate the amount of text remaining based on the size of the image
+        private void WordsTextBox_TextChanged(object sender, EventArgs e)
+        {
+            // only if there is an image uploaded
+            if (bmp == null)
+                return;
 
+            long size = bmp.Height * bmp.Width;
+
+            size = size * 3 / 8;
+
+            SizeLabel.Text = $"Characters Remaining: {size - WordsTextBox.Text.Length}";
+        }
     }
 }
 

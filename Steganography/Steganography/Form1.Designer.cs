@@ -45,6 +45,7 @@
             this.DecryptAllTextBox = new System.Windows.Forms.TextBox();
             this.UrlLabel = new System.Windows.Forms.Label();
             this.UrlTextBox = new System.Windows.Forms.TextBox();
+            this.SizeLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ImagePictureBox)).BeginInit();
             this.ImageGroupBox.SuspendLayout();
             this.TabControl.SuspendLayout();
@@ -122,12 +123,13 @@
             // WordsTextBox
             // 
             this.WordsTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WordsTextBox.Location = new System.Drawing.Point(5, 37);
+            this.WordsTextBox.Location = new System.Drawing.Point(5, 56);
             this.WordsTextBox.Multiline = true;
             this.WordsTextBox.Name = "WordsTextBox";
             this.WordsTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.WordsTextBox.Size = new System.Drawing.Size(380, 340);
+            this.WordsTextBox.Size = new System.Drawing.Size(380, 321);
             this.WordsTextBox.TabIndex = 18;
+            this.WordsTextBox.TextChanged += new System.EventHandler(this.WordsTextBox_TextChanged);
             // 
             // ImageGroupBox
             // 
@@ -161,6 +163,7 @@
             // 
             // FileTabPage
             // 
+            this.FileTabPage.Controls.Add(this.SizeLabel);
             this.FileTabPage.Controls.Add(this.UploadTextButton);
             this.FileTabPage.Controls.Add(this.PasswordCheckBox);
             this.FileTabPage.Controls.Add(this.EncodeButton);
@@ -232,6 +235,16 @@
             this.UrlTextBox.Size = new System.Drawing.Size(666, 22);
             this.UrlTextBox.TabIndex = 6;
             // 
+            // SizeLabel
+            // 
+            this.SizeLabel.AutoSize = true;
+            this.SizeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SizeLabel.Location = new System.Drawing.Point(6, 37);
+            this.SizeLabel.Name = "SizeLabel";
+            this.SizeLabel.Size = new System.Drawing.Size(138, 16);
+            this.SizeLabel.TabIndex = 21;
+            this.SizeLabel.Text = "Characters remaining:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -272,6 +285,7 @@
         private System.Windows.Forms.TextBox UrlTextBox;
         private System.Windows.Forms.TextBox DecryptAllTextBox;
         private System.Windows.Forms.Button ExtractAllButton;
+        private System.Windows.Forms.Label SizeLabel;
     }
 }
 
