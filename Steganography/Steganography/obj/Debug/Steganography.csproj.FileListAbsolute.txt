@@ -12,3 +12,17 @@ F:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganogra
 F:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\bin\Debug\Steganography.application
 F:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.exe.manifest
 F:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.application
+D:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\bin\Debug\Steganography.exe.config
+D:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\bin\Debug\Steganography.exe.manifest
+D:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\bin\Debug\Steganography.application
+D:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\bin\Debug\Steganography.exe
+D:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\bin\Debug\Steganography.pdb
+D:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.csprojAssemblyReference.cache
+D:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.Form1.resources
+D:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.Properties.Resources.resources
+D:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.csproj.GenerateResource.cache
+D:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.csproj.CoreCompileInputs.cache
+D:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.exe.manifest
+D:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.application
+D:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.exe
+D:\Programs\C#\ECE 4310 Operating Systems\Steganography\Steganography\Steganography\Steganography\obj\Debug\Steganography.pdb
