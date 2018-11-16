@@ -167,6 +167,8 @@ namespace Steganography
 
             using (OpenFileDialog dlg = new OpenFileDialog())
             {
+                dlg.InitialDirectory = Environment.CurrentDirectory;
+
                 if (dlg.ShowDialog() == DialogResult.OK)
                 {
                     fileName = dlg.FileName;
@@ -188,6 +190,7 @@ namespace Steganography
             using (OpenFileDialog dlg = new OpenFileDialog())
             {
                 dlg.Title = "Open Image";
+                dlg.InitialDirectory = Environment.CurrentDirectory;
 
                 if (dlg.ShowDialog() == DialogResult.OK)
                 {
